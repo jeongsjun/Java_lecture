@@ -1,4 +1,4 @@
-package day_250408.shopping;
+package shopping;
 
 import java.util.Scanner;
 
@@ -11,7 +11,9 @@ public class MainClass {
 		System.out.println("하단의 메뉴에서 원하시는 기능을 선택해주세요!");
 		System.out.println();
 		
+		
 		while(true) {
+			// 초기 메뉴
 			System.out.println("---------메뉴--------");
 			System.out.print("1. 로그인 | 2. 회원 가입 | q. 종료 -> ");
 			String inputMenu = scanner.nextLine();
@@ -19,6 +21,7 @@ public class MainClass {
 			
 			if (inputMenu.equals("1")) {
 				while(true) {
+					// 로그인 메뉴
 					System.out.println("--------로그인-------");
 					System.out.print("1. 공급자 로그인 | 2. 구매자 로그인 | 3. 비회원 로그인 | q. 종료 -> ");
 					String loginMenu = scanner.nextLine();
@@ -39,7 +42,7 @@ public class MainClass {
 								System.out.println("로그인에 성공했습니다.");
 								System.out.println("환영합니다! " + shopping.provider.name + "님");
 							} else {
-								System.out.println("비밀번로가 틀립니다.");
+								System.out.println("비밀번호가 틀립니다.");
 								System.out.println();
 								break;
 							}
@@ -52,7 +55,7 @@ public class MainClass {
 						
 						while(true) {
 							System.out.println("--------공급자 메뉴-------");
-							System.out.print("1. 상품 등록 | 2. 등록 상품 조회 | 3. 상품 삭제 |q. 로그아웃 -> ");
+							System.out.print("1. 상품 등록 | 2. 등록 상품 조회 | 3. 상품 삭제 | q. 로그아웃 -> ");
 							String providerMenu = scanner.nextLine();
 							System.out.println();
 							
@@ -84,6 +87,7 @@ public class MainClass {
 						
 						
 					} 
+					
 					// 구매자 메뉴
 					else if (loginMenu.equals("2")) {
 						System.out.println("--------구매자 로그인-------");
@@ -112,7 +116,7 @@ public class MainClass {
 						
 						while(true) {
 							System.out.println("---------구매자 메뉴--------");
-							System.out.print("1. 상품 조회 | 2. 장바구니 담기 | 3. 장바구니 조회 | 4. 장바구니 삭제 | 5. 장바구니 비우기 |6. 구매 | q. 로그아웃  -> ");
+							System.out.print("1. 상품 조회 | 2. 장바구니 담기 | 3. 장바구니 조회 | 4. 장바구니 삭제 | 5. 장바구니 비우기 | 6. 구매 | q. 로그아웃  -> ");
 							
 							String consumerMenu = scanner.nextLine();
 							System.out.println();
@@ -152,11 +156,12 @@ public class MainClass {
 							}
 						}
 					} 
+					
 					// 비회원 메뉴
 					else if (loginMenu.equals("3")) {
 						while(true) {
 							System.out.println("---------비회원 메뉴--------");
-							System.out.print("1. 상품 조회 | 2. 장바구니 담기 | 3. 장바구니 조회 | 4. 장바구니 삭제 | 5. 장바구니 비우기 |6. 구매 | q. 로그아웃  -> ");
+							System.out.print("1. 상품 조회 | 2. 장바구니 담기 | 3. 장바구니 조회 | 4. 장바구니 삭제 | 5. 장바구니 비우기 | 6. 구매 | q. 로그아웃  -> ");
 							
 							String nConsumerMenu = scanner.nextLine();
 							System.out.println();
@@ -208,6 +213,7 @@ public class MainClass {
 					}
 				}
 				
+			// 회원가입 메뉴	
 			} else if (inputMenu.equals("2")) {
 				while(true) {
 					System.out.println("--------회원가입-------");
@@ -241,7 +247,8 @@ public class MainClass {
 						System.out.println();
 					}
 				}
-				
+			
+			// 종료
 			} else if (inputMenu.equals("q")) {
 				System.out.println("감사합니다! 다음에 또 방문해주세요~! 스금과 승준 쇼핑몰이었습니다~~!");
 				break;
@@ -251,47 +258,5 @@ public class MainClass {
 				System.out.println();
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-//		while(true) {
-//			System.out.println("---------메뉴--------");
-//			System.out.print("1. 상품 등록 | 2. 상품 조회 | 3. 장바구니 담기 | 4. 장바구니 조회 | 5. 장바구니 삭제 | 6. 구매 | q. 종료  -> ");
-//			String inputMenu = scanner.nextLine();
-//			System.out.println();
-//			
-//			if (inputMenu.equals("1")) {
-//				System.out.println("--------상품 등록-------");
-//				shopping.inputProduct();
-//				System.out.println();
-//			} else if (inputMenu.equals("2")) {
-//				System.out.println("--------상품 조회-------");
-//				shopping.searchProduct();
-//				System.out.println();
-//			} else if (inputMenu.equals("3")) {
-//				System.out.println("--------장바구니 담기-------");
-//				shopping.insertBasket();
-//				System.out.println();
-//			} else if (inputMenu.equals("4")) {
-//				System.out.println("--------장바구니 조회-------");
-//				shopping.searchBasket();
-//				System.out.println();
-//			} else if (inputMenu.equals("5")) {
-//				System.out.println("--------장바구니 삭제-------");
-//				shopping.deleteBasket();
-//				System.out.println();
-//			} else if (inputMenu.equals("6")) {
-//				System.out.println("--------구매-------");
-//				shopping.purchase();
-//				System.out.println();
-//			} else if (inputMenu.equals("q")) {
-//				System.out.println("감사합니다! 다음에 또 방문해주세요~! 스금과 승준 쇼핑몰이었습니다~~!");
-//				break;
-//			}
-//		}
 	}
 }
