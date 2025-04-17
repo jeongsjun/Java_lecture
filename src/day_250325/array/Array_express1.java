@@ -1,3 +1,4 @@
+// 학생의 점수를 랜덤으로 발생시켜 넣어주고 각각의 점수, 총합, 평균 출력
 package day_250325.array;
 
 import java.util.Random;
@@ -5,7 +6,6 @@ import java.util.Scanner;
 
 public class Array_express1 {
 	public static void main(String[] args) {
-		// 학생의 점수를 랜덤으로 발생시켜 넣어주고 각각의 점수, 총합, 평균 출력
 		// 1. 랜덤 객체, 입력 객체 생성
 		Random r = new Random();
 		Scanner s = new Scanner(System.in);

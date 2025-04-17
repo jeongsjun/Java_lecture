@@ -1,3 +1,4 @@
+// 학생 클래스의 속성과 입력 메소드 생성
 package day_250408.Express;
 
 import java.util.Scanner;

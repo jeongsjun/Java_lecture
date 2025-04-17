@@ -1,9 +1,8 @@
+// 0부터 100까지의 총 합을 구하시오.
 package day_250318;
 
 public class Express1 {
 	public static void main(String[] args) {
-		// 0부터 100까지의 총 합을 구하시오.
-		
 		// 1. 합계 변수 생성
 		int sum = 0;
 		

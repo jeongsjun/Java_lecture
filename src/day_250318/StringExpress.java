@@ -1,11 +1,10 @@
+// Q. 사용자로부터 동물 이름을 입력 받으면 해당 동물의 울음소리를 출력하는 프로그램을 만드세요.
 package day_250318;
 
 import java.util.Scanner;
 
 public class StringExpress {
 	public static void main(String[] args) {
-		// Q. 사용자로부터 동물 이름을 입력 받으면 해당 동물의 울음소리를 출력하는 프로그램을 만드세요.
-		
 		// 1. 입력 객체 생성
 		Scanner s = new Scanner(System.in);
 		

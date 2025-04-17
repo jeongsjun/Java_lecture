@@ -1,3 +1,9 @@
+/*
+사용자에게 9개의 숫자를 입력받아서 3*3의 이중 배열에 넣은 후 각행의 덧셈 합을
+출력하시오.
+조건1) 출력 시 4*4의 형식으로 출력 (4행째는 덧셈 합)
+조건2) 데이터 출력시 정렬된 형식으로 출력
+*/
 package day_250325.array;
 
 import java.util.Arrays;
@@ -5,12 +11,6 @@ import java.util.Scanner;
 
 public class Array_express4 {
 	public static void main(String[] args) {
-		/*
-		사용자에게 9개의 숫자를 입력받아서 3*3의 이중 배열에 넣은 후 각행의 덧셈 합을
-		출력하시오.
-		조건1) 출력 시 4*4의 형식으로 출력 (4행째는 덧셈 합)
-		조건2) 데이터 출력시 정렬된 형식으로 출력
-		 */
 		Scanner s = new Scanner(System.in);
 		
 		int[][] inputArr = new int [3][3];

@@ -1,3 +1,4 @@
+// 배열 개념
 package day_250325.array;
 
 import java.util.Random;

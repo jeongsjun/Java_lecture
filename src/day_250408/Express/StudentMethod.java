@@ -1,8 +1,10 @@
+// 학생 메소드 생성
 package day_250408.Express;
 
 public class StudentMethod {
 	Student[] student = new Student[10];
 	
+	// 입력 메소드
 	public void inputData() {
 		for (int i = 0; i < student.length; i++) {
 			student[i] = new Student();
@@ -12,6 +14,7 @@ public class StudentMethod {
 		}
 	}
 	
+	// 성별을 세는 메소드
 	public void countGender() {
 		int count = 0;
 		for (int i = 0; i < student.length; i++) {
@@ -30,6 +33,7 @@ public class StudentMethod {
 		System.out.println("남자 : " + ratioMan + "%, 여자 : " + ratioWoman + "%");
 	}
 	
+	// 서울에 사는 학생의 명단을 출력하는 메소드
 	public void countSeoul() {
 		System.out.println("** 서울에 사는 학생 명단 **");
 		for (int i = 0; i < student.length; i++) {

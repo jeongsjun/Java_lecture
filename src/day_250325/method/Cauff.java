@@ -1,3 +1,4 @@
+// 카우프 지수를 이용해 사용자에게 체중과 신장을 입력받고 카우프지수 결과를 출력하세요
 package day_250325.method;
 
 public class Cauff {

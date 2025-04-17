@@ -1,5 +1,7 @@
 package day_250401.Class;
 
+// 주사위 게임 메소드
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;

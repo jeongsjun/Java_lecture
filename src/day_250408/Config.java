@@ -1,3 +1,4 @@
+// static의 사용 예시
 package day_250408;
 
 public class Config {

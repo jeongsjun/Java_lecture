@@ -1,3 +1,4 @@
+// 학생 메소드 생성
 package day_250401.Class;
 
 import java.util.Scanner;

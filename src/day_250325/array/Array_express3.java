@@ -1,3 +1,9 @@
+/* 0~100까지 임의의 수를 30개 발생시켜서 배열에 넣은 후 정렬하시오.
+조건1) 정렬 전/후의 값을 화면에 출력
+조건2) 소트 알고리즘 중 사용한 알고리즘을 설명한 레포트 (형식 무관, 내용만 제출) 첨부
+비고. 정렬 알고리즘 및 이중	 루프문에 대한 공부는 따로 하셔야 합니다. 
+*/
+
 package day_250325.array;
 
 import java.util.Arrays;
@@ -5,12 +11,6 @@ import java.util.Random;
 
 public class Array_express3 {
 	public static void main(String[] args) {
-		/* 0~100까지 임의의 수를 30개 발생시켜서 배열에 넣은 후 정렬하시오.
-			조건1) 정렬 전/후의 값을 화면에 출력
-			조건2) 소트 알고리즘 중 사용한 알고리즘을 설명한 레포트 (형식 무관, 내용만 제출) 첨부
-			비고. 정렬 알고리즘 및 이중	 루프문에 대한 공부는 따로 하셔야 합니다. 
-		 */
-		
 		Random r = new Random();
 		int[] randomArray = new int[30];
 		for (int i = 0; i < randomArray.length; i++) {

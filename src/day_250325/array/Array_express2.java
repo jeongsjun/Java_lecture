@@ -1,3 +1,4 @@
+// 주사위 대결 게임 (승률 이력 출력)
 package day_250325.array;
 
 import java.util.ArrayList;
@@ -6,8 +7,6 @@ import java.util.Scanner;
 
 public class Array_express2 {
 	public static void main(String[] args) {
-		// 주사위 대결 게임 (승률 이력 출력)
-		
 		// 1. 랜덤 객체, 입력 객체, 승패 이력 배열 생성
 		Random r = new Random();
 		Scanner s = new Scanner(System.in);

@@ -1,3 +1,10 @@
+/* 1. 한게임
+* 사용자가 가위 바위 보
+* 컴퓨터가 가위 바위 보 중 하나
+* 누가 이겼음(비겼음) 출력
+* 
+* 2. 게임을 여러번 할 수 있게
+*/
 package day_250318;
 
 import java.util.Random;
@@ -5,14 +12,6 @@ import java.util.Scanner;
 
 public class Express5 {
 	public static void main(String[] args) {
-		/* 1. 한게임
-		 * 사용자가 가위 바위 보
-		 * 컴퓨터가 가위 바위 보 중 하나
-		 * 누가 이겼음(비겼음) 출력
-		 * 
-		 * 2. 게임을 여러번 할 수 있게
-		 */
-		
 		// 1. 랜덤 객체, 입력 객체 생성
 		Random r = new Random();
 		Scanner s = new Scanner(System.in);

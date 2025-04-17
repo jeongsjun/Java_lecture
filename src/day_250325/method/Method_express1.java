@@ -1,20 +1,20 @@
+/* 저금통 다시 만들기
+* 금액
+* 입금, 출금 메소드
+* (입금: 현재 저금된 금액 출력)
+* (출금: 리턴 값으로 저금한 총 금액을 리턴)
+* 
+* +a
+* 저금통 이름을 지정할 수 있게
+* 출금 후에는 더이상 저금 못하게
+* */
+
 package day_250325.method;
 
 import java.util.Scanner;
 
 public class Method_express1 {
 	public static void main(String[] args) {
-		/* 저금통 다시 만들기
-		 * 금액
-		 * 입금, 출금 메소드
-		 * (입금: 현재 저금된 금액 출력)
-		 * (출금: 리턴 값으로 저금한 총 금액을 리턴)
-		 * 
-		 * +a
-		 * 저금통 이름을 지정할 수 있게
-		 * 출금 후에는 더이상 저금 못하게
-		 * */
-		
 		// 1. 메소드 객체, 입력 객체 생성
 		Method_express1_savebox testSavebox = new Method_express1_savebox();
 		Scanner s = new Scanner(System.in);

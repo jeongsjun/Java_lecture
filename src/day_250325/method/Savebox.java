@@ -1,3 +1,4 @@
+// 속성과 메소드 개념
 package day_250325.method;
 
 public class Savebox {

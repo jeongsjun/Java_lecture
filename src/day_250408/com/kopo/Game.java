@@ -1,3 +1,4 @@
+// static 개념
 package day_250408.com.kopo;
 
 public class Game {

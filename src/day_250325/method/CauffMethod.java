@@ -1,3 +1,4 @@
+// 카우프지수 메소드
 package day_250325.method;
 
 import java.util.Scanner;
