@@ -1,4 +1,4 @@
-package shopping;
+package day_250408.shopping;
 
 public class Product {
 	// 상품명, 가격, 상품 번호 변수 선언

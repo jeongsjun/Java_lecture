@@ -1,4 +1,4 @@
-package shopping;
+package day_250408.shopping;
 
 import java.util.Scanner;
 
