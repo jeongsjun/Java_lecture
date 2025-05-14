@@ -20,12 +20,12 @@
 ├── ...
 ├── src/shoppingMall
   ├── Basket.java            # 장바구니 클래스 (상품, 상품 개수, 총 가격)
-  ├── Consumer.java         # 구매자 클래스 (이름, 아이디, 비밀번호)
+  ├── Consumer.java          # 구매자 클래스 (이름, 아이디, 비밀번호)
   ├── MainClass.java         # 실행 및 메뉴 출력을 위한 메인 클래스 
-  ├── Product.java            # 상품 클래스 (이름, 가격, 상품 번호)
-  ├── Provider.java            # 공급자 클래스 (이름, 아이디, 비밀번호)
-  ├── Purchase.java            # 구매 클래스 (구매 금액, 배송지, 연락처)
-  ├── Shopping.java            # 쇼핑몰 클래스 (회원가입, 로그인, 상품 등록, 조회 등)
+  ├── Product.java           # 상품 클래스 (이름, 가격, 상품 번호)
+  ├── Provider.java          # 공급자 클래스 (이름, 아이디, 비밀번호)
+  ├── Purchase.java          # 구매 클래스 (구매 금액, 배송지, 연락처)
+  ├── Shopping.java          # 쇼핑몰 클래스 (회원가입, 로그인, 상품 등록, 조회 등)
   └── ...
 ```
 
